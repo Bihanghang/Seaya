@@ -13,7 +13,7 @@
     <appender name="consoleLog" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>
-                %d - [%thread] %beauty(%-14level) %logger{55} - %beauty(%msg) %n
+                [%thread] %beauty(%level) %logger{55} - %beauty(%msg) %n
             </pattern>
         </encoder>
     </appender>

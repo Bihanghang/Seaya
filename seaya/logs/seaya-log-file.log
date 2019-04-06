@@ -1,0 +1,736 @@
+2019-04-06 00:00:15.584 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Cicada started on port: 5689.cost 2800ms
+2019-04-06 00:00:15.619 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 00:09:36.941 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2898ms
+2019-04-06 00:09:36.947 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 00:10:51.174 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2373ms
+2019-04-06 00:10:51.181 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 00:10:58.947 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 - R:/127.0.0.1:62482] REGISTERED
+2019-04-06 00:10:58.947 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05d8f9a0, L:/127.0.0.1:5689 - R:/127.0.0.1:62484] REGISTERED
+2019-04-06 00:10:58.948 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 - R:/127.0.0.1:62482] ACTIVE
+2019-04-06 00:10:58.948 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05d8f9a0, L:/127.0.0.1:5689 - R:/127.0.0.1:62484] ACTIVE
+2019-04-06 00:10:59.228 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 - R:/127.0.0.1:62482] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:10:59.228 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 - R:/127.0.0.1:62482] READ COMPLETE
+2019-04-06 00:10:59.430 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 - R:/127.0.0.1:62482] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:10:59.430 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 - R:/127.0.0.1:62482] READ COMPLETE
+2019-04-06 00:10:59.440 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 - R:/127.0.0.1:62482] READ COMPLETE
+2019-04-06 00:10:59.442 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 ! R:/127.0.0.1:62482] INACTIVE
+2019-04-06 00:10:59.443 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05333487, L:/127.0.0.1:5689 ! R:/127.0.0.1:62482] UNREGISTERED
+2019-04-06 00:10:59.658 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05d8f9a0, L:/127.0.0.1:5689 - R:/127.0.0.1:62484] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:10:59.659 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05d8f9a0, L:/127.0.0.1:5689 - R:/127.0.0.1:62484] READ COMPLETE
+2019-04-06 00:10:59.664 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05d8f9a0, L:/127.0.0.1:5689 - R:/127.0.0.1:62484] READ COMPLETE
+2019-04-06 00:10:59.664 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05d8f9a0, L:/127.0.0.1:5689 ! R:/127.0.0.1:62484] INACTIVE
+2019-04-06 00:10:59.665 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x05d8f9a0, L:/127.0.0.1:5689 ! R:/127.0.0.1:62484] UNREGISTERED
+2019-04-06 00:20:01.003 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2600ms
+2019-04-06 00:20:01.009 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 00:20:05.058 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa77a57e7, L:/127.0.0.1:5689 - R:/127.0.0.1:62632] REGISTERED
+2019-04-06 00:20:05.058 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] REGISTERED
+2019-04-06 00:20:05.058 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa77a57e7, L:/127.0.0.1:5689 - R:/127.0.0.1:62632] ACTIVE
+2019-04-06 00:20:05.058 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] ACTIVE
+2019-04-06 00:20:05.138 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:20:05.138 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] READ COMPLETE
+2019-04-06 00:20:15.015 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa77a57e7, L:/127.0.0.1:5689 - R:/127.0.0.1:62632] READ COMPLETE
+2019-04-06 00:20:15.021 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa77a57e7, L:/127.0.0.1:5689 ! R:/127.0.0.1:62632] INACTIVE
+2019-04-06 00:20:15.022 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa77a57e7, L:/127.0.0.1:5689 ! R:/127.0.0.1:62632] UNREGISTERED
+2019-04-06 00:20:52.149 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:20:52.151 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] READ COMPLETE
+2019-04-06 00:20:52.223 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcce1595a, L:/127.0.0.1:5689 - R:/127.0.0.1:62643] REGISTERED
+2019-04-06 00:20:52.224 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcce1595a, L:/127.0.0.1:5689 - R:/127.0.0.1:62643] ACTIVE
+2019-04-06 00:21:06.031 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcce1595a, L:/127.0.0.1:5689 - R:/127.0.0.1:62643] READ COMPLETE
+2019-04-06 00:21:06.033 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcce1595a, L:/127.0.0.1:5689 ! R:/127.0.0.1:62643] INACTIVE
+2019-04-06 00:21:06.033 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcce1595a, L:/127.0.0.1:5689 ! R:/127.0.0.1:62643] UNREGISTERED
+2019-04-06 00:21:09.175 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd85874cf, L:/127.0.0.1:5689 - R:/127.0.0.1:62649] REGISTERED
+2019-04-06 00:21:09.176 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd85874cf, L:/127.0.0.1:5689 - R:/127.0.0.1:62649] ACTIVE
+2019-04-06 00:21:09.260 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:21:09.269 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] READ COMPLETE
+2019-04-06 00:21:09.269 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 - R:/127.0.0.1:62631] READ COMPLETE
+2019-04-06 00:21:09.270 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 ! R:/127.0.0.1:62631] INACTIVE
+2019-04-06 00:21:09.270 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc4da2509, L:/127.0.0.1:5689 ! R:/127.0.0.1:62631] UNREGISTERED
+2019-04-06 00:21:26.641 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd85874cf, L:/127.0.0.1:5689 - R:/127.0.0.1:62649] READ COMPLETE
+2019-04-06 00:21:26.643 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd85874cf, L:/127.0.0.1:5689 ! R:/127.0.0.1:62649] INACTIVE
+2019-04-06 00:21:26.643 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd85874cf, L:/127.0.0.1:5689 ! R:/127.0.0.1:62649] UNREGISTERED
+2019-04-06 00:27:11.365 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5fde04be, L:/127.0.0.1:5689 - R:/127.0.0.1:62740] REGISTERED
+2019-04-06 00:27:11.367 seaya [(♛‿♛)-3-6] INFO  i.n.handler.logging.LoggingHandler - [id: 0xaffbc410, L:/127.0.0.1:5689 - R:/127.0.0.1:62741] REGISTERED
+2019-04-06 00:27:11.367 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5fde04be, L:/127.0.0.1:5689 - R:/127.0.0.1:62740] ACTIVE
+2019-04-06 00:27:11.369 seaya [(♛‿♛)-3-6] INFO  i.n.handler.logging.LoggingHandler - [id: 0xaffbc410, L:/127.0.0.1:5689 - R:/127.0.0.1:62741] ACTIVE
+2019-04-06 00:27:11.382 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5fde04be, L:/127.0.0.1:5689 - R:/127.0.0.1:62740] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:27:11.382 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5fde04be, L:/127.0.0.1:5689 - R:/127.0.0.1:62740] READ COMPLETE
+2019-04-06 00:27:11.383 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5fde04be, L:/127.0.0.1:5689 - R:/127.0.0.1:62740] READ COMPLETE
+2019-04-06 00:27:11.385 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5fde04be, L:/127.0.0.1:5689 ! R:/127.0.0.1:62740] INACTIVE
+2019-04-06 00:27:11.387 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5fde04be, L:/127.0.0.1:5689 ! R:/127.0.0.1:62740] UNREGISTERED
+2019-04-06 00:27:13.066 seaya [(♛‿♛)-3-7] INFO  i.n.handler.logging.LoggingHandler - [id: 0xea777c55, L:/127.0.0.1:5689 - R:/127.0.0.1:62743] REGISTERED
+2019-04-06 00:27:13.067 seaya [(♛‿♛)-3-7] INFO  i.n.handler.logging.LoggingHandler - [id: 0xea777c55, L:/127.0.0.1:5689 - R:/127.0.0.1:62743] ACTIVE
+2019-04-06 00:27:13.069 seaya [(♛‿♛)-3-6] INFO  i.n.handler.logging.LoggingHandler - [id: 0xaffbc410, L:/127.0.0.1:5689 - R:/127.0.0.1:62741] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:27:13.070 seaya [(♛‿♛)-3-6] INFO  i.n.handler.logging.LoggingHandler - [id: 0xaffbc410, L:/127.0.0.1:5689 - R:/127.0.0.1:62741] READ COMPLETE
+2019-04-06 00:27:13.072 seaya [(♛‿♛)-3-6] INFO  i.n.handler.logging.LoggingHandler - [id: 0xaffbc410, L:/127.0.0.1:5689 - R:/127.0.0.1:62741] READ COMPLETE
+2019-04-06 00:27:13.074 seaya [(♛‿♛)-3-6] INFO  i.n.handler.logging.LoggingHandler - [id: 0xaffbc410, L:/127.0.0.1:5689 ! R:/127.0.0.1:62741] INACTIVE
+2019-04-06 00:27:13.074 seaya [(♛‿♛)-3-6] INFO  i.n.handler.logging.LoggingHandler - [id: 0xaffbc410, L:/127.0.0.1:5689 ! R:/127.0.0.1:62741] UNREGISTERED
+2019-04-06 00:27:28.863 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2731ms
+2019-04-06 00:27:28.868 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 00:27:33.347 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 - R:/127.0.0.1:62782] REGISTERED
+2019-04-06 00:27:33.347 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x77214380, L:/127.0.0.1:5689 - R:/127.0.0.1:62783] REGISTERED
+2019-04-06 00:27:33.348 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 - R:/127.0.0.1:62782] ACTIVE
+2019-04-06 00:27:33.348 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x77214380, L:/127.0.0.1:5689 - R:/127.0.0.1:62783] ACTIVE
+2019-04-06 00:27:33.439 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 - R:/127.0.0.1:62782] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:27:33.440 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 - R:/127.0.0.1:62782] READ COMPLETE
+2019-04-06 00:27:50.889 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x77214380, L:/127.0.0.1:5689 - R:/127.0.0.1:62783] READ COMPLETE
+2019-04-06 00:27:50.895 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x77214380, L:/127.0.0.1:5689 ! R:/127.0.0.1:62783] INACTIVE
+2019-04-06 00:27:50.896 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x77214380, L:/127.0.0.1:5689 ! R:/127.0.0.1:62783] UNREGISTERED
+2019-04-06 00:27:50.905 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5319ac21, L:/127.0.0.1:5689 - R:/127.0.0.1:62788] REGISTERED
+2019-04-06 00:27:50.906 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5319ac21, L:/127.0.0.1:5689 - R:/127.0.0.1:62788] ACTIVE
+2019-04-06 00:27:50.966 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 - R:/127.0.0.1:62782] READ, EmptyLastHttpContent, 0B
+2019-04-06 00:27:50.966 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 - R:/127.0.0.1:62782] READ COMPLETE
+2019-04-06 00:27:50.967 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 - R:/127.0.0.1:62782] READ COMPLETE
+2019-04-06 00:27:50.968 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 ! R:/127.0.0.1:62782] INACTIVE
+2019-04-06 00:27:50.970 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd82c78b8, L:/127.0.0.1:5689 ! R:/127.0.0.1:62782] UNREGISTERED
+2019-04-06 00:28:14.771 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5319ac21, L:/127.0.0.1:5689 - R:/127.0.0.1:62788] READ COMPLETE
+2019-04-06 00:28:14.773 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5319ac21, L:/127.0.0.1:5689 ! R:/127.0.0.1:62788] INACTIVE
+2019-04-06 00:28:14.774 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5319ac21, L:/127.0.0.1:5689 ! R:/127.0.0.1:62788] UNREGISTERED
+2019-04-06 11:03:24.284 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2670ms
+2019-04-06 11:03:24.288 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 11:03:39.043 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] REGISTERED
+2019-04-06 11:03:39.044 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] ACTIVE
+2019-04-06 11:03:39.044 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb7285b64, L:/127.0.0.1:5689 - R:/127.0.0.1:62980] REGISTERED
+2019-04-06 11:03:39.045 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb7285b64, L:/127.0.0.1:5689 - R:/127.0.0.1:62980] ACTIVE
+2019-04-06 11:03:39.914 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:03:39.914 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] READ COMPLETE
+2019-04-06 11:03:40.101 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:03:40.101 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] READ COMPLETE
+2019-04-06 11:03:43.505 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:03:43.505 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] READ COMPLETE
+2019-04-06 11:03:43.507 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 - R:/127.0.0.1:62981] READ COMPLETE
+2019-04-06 11:03:43.510 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 ! R:/127.0.0.1:62981] INACTIVE
+2019-04-06 11:03:43.510 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe91ce3c7, L:/127.0.0.1:5689 ! R:/127.0.0.1:62981] UNREGISTERED
+2019-04-06 11:04:02.154 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb7285b64, L:/127.0.0.1:5689 - R:/127.0.0.1:62980] READ COMPLETE
+2019-04-06 11:04:02.155 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb7285b64, L:/127.0.0.1:5689 ! R:/127.0.0.1:62980] INACTIVE
+2019-04-06 11:04:02.155 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb7285b64, L:/127.0.0.1:5689 ! R:/127.0.0.1:62980] UNREGISTERED
+2019-04-06 11:06:05.656 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2811ms
+2019-04-06 11:06:05.661 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 11:06:12.236 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x68680aba, L:/127.0.0.1:5689 - R:/127.0.0.1:63084] REGISTERED
+2019-04-06 11:06:12.236 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xdbb02e1e, L:/127.0.0.1:5689 - R:/127.0.0.1:63085] REGISTERED
+2019-04-06 11:06:12.236 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x68680aba, L:/127.0.0.1:5689 - R:/127.0.0.1:63084] ACTIVE
+2019-04-06 11:06:12.236 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xdbb02e1e, L:/127.0.0.1:5689 - R:/127.0.0.1:63085] ACTIVE
+2019-04-06 11:06:12.297 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xdbb02e1e, L:/127.0.0.1:5689 - R:/127.0.0.1:63085] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:06:12.298 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xdbb02e1e, L:/127.0.0.1:5689 - R:/127.0.0.1:63085] READ COMPLETE
+2019-04-06 11:06:31.271 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x68680aba, L:/127.0.0.1:5689 - R:/127.0.0.1:63084] READ COMPLETE
+2019-04-06 11:06:31.273 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x68680aba, L:/127.0.0.1:5689 ! R:/127.0.0.1:63084] INACTIVE
+2019-04-06 11:06:31.273 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x68680aba, L:/127.0.0.1:5689 ! R:/127.0.0.1:63084] UNREGISTERED
+2019-04-06 11:07:12.535 seaya [(♛‿♛)-3-2] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:07:12.536 seaya [(♛‿♛)-3-2] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:07:12.537 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x454fac9a, L:/127.0.0.1:5689 - R:/127.0.0.1:63101] REGISTERED
+2019-04-06 11:07:12.538 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x454fac9a, L:/127.0.0.1:5689 - R:/127.0.0.1:63101] ACTIVE
+2019-04-06 11:07:12.671 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xdbb02e1e, L:/127.0.0.1:5689 - R:/127.0.0.1:63085] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:07:12.672 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xdbb02e1e, L:/127.0.0.1:5689 - R:/127.0.0.1:63085] READ COMPLETE
+2019-04-06 11:07:35.187 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x454fac9a, L:/127.0.0.1:5689 - R:/127.0.0.1:63101] READ COMPLETE
+2019-04-06 11:07:35.189 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x454fac9a, L:/127.0.0.1:5689 ! R:/127.0.0.1:63101] INACTIVE
+2019-04-06 11:07:35.190 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x454fac9a, L:/127.0.0.1:5689 ! R:/127.0.0.1:63101] UNREGISTERED
+2019-04-06 11:09:34.400 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2489ms
+2019-04-06 11:09:34.406 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 11:09:39.726 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x980c9c99, L:/127.0.0.1:5689 - R:/127.0.0.1:63175] REGISTERED
+2019-04-06 11:09:39.726 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x92b91cc1, L:/127.0.0.1:5689 - R:/127.0.0.1:63176] REGISTERED
+2019-04-06 11:09:39.728 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x980c9c99, L:/127.0.0.1:5689 - R:/127.0.0.1:63175] ACTIVE
+2019-04-06 11:09:39.728 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x92b91cc1, L:/127.0.0.1:5689 - R:/127.0.0.1:63176] ACTIVE
+2019-04-06 11:09:39.823 seaya [(♛‿♛)-3-2] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:09:39.823 seaya [(♛‿♛)-3-2] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:09:39.957 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x92b91cc1, L:/127.0.0.1:5689 - R:/127.0.0.1:63176] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:09:39.959 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x92b91cc1, L:/127.0.0.1:5689 - R:/127.0.0.1:63176] READ COMPLETE
+2019-04-06 11:10:15.191 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x980c9c99, L:/127.0.0.1:5689 - R:/127.0.0.1:63175] READ COMPLETE
+2019-04-06 11:10:15.193 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x980c9c99, L:/127.0.0.1:5689 ! R:/127.0.0.1:63175] INACTIVE
+2019-04-06 11:10:15.194 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x980c9c99, L:/127.0.0.1:5689 ! R:/127.0.0.1:63175] UNREGISTERED
+2019-04-06 11:10:35.239 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3174ms
+2019-04-06 11:10:35.244 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 11:10:47.484 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4722caea, L:/127.0.0.1:5689 - R:/127.0.0.1:63229] REGISTERED
+2019-04-06 11:10:47.484 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc67d1657, L:/127.0.0.1:5689 - R:/127.0.0.1:63228] REGISTERED
+2019-04-06 11:10:47.485 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4722caea, L:/127.0.0.1:5689 - R:/127.0.0.1:63229] ACTIVE
+2019-04-06 11:10:47.485 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc67d1657, L:/127.0.0.1:5689 - R:/127.0.0.1:63228] ACTIVE
+2019-04-06 11:10:47.529 seaya [(♛‿♛)-3-2] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:10:47.529 seaya [(♛‿♛)-3-2] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:10:47.538 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4722caea, L:/127.0.0.1:5689 - R:/127.0.0.1:63229] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:10:47.539 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4722caea, L:/127.0.0.1:5689 - R:/127.0.0.1:63229] READ COMPLETE
+2019-04-06 11:11:31.826 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2995ms
+2019-04-06 11:11:31.831 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 11:11:40.864 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x781a5ebb, L:/127.0.0.1:5689 - R:/127.0.0.1:63264] REGISTERED
+2019-04-06 11:11:40.864 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x331bd8a3, L:/127.0.0.1:5689 - R:/127.0.0.1:63265] REGISTERED
+2019-04-06 11:11:40.865 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x781a5ebb, L:/127.0.0.1:5689 - R:/127.0.0.1:63264] ACTIVE
+2019-04-06 11:11:40.866 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x331bd8a3, L:/127.0.0.1:5689 - R:/127.0.0.1:63265] ACTIVE
+2019-04-06 11:11:40.960 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:11:40.960 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:11:40.977 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x781a5ebb, L:/127.0.0.1:5689 - R:/127.0.0.1:63264] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:11:40.977 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x781a5ebb, L:/127.0.0.1:5689 - R:/127.0.0.1:63264] READ COMPLETE
+2019-04-06 11:11:42.595 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:11:42.596 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:11:42.599 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x781a5ebb, L:/127.0.0.1:5689 - R:/127.0.0.1:63264] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:11:42.600 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x781a5ebb, L:/127.0.0.1:5689 - R:/127.0.0.1:63264] READ COMPLETE
+2019-04-06 11:11:59.724 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x331bd8a3, L:/127.0.0.1:5689 - R:/127.0.0.1:63265] READ COMPLETE
+2019-04-06 11:11:59.727 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x331bd8a3, L:/127.0.0.1:5689 ! R:/127.0.0.1:63265] INACTIVE
+2019-04-06 11:11:59.728 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x331bd8a3, L:/127.0.0.1:5689 ! R:/127.0.0.1:63265] UNREGISTERED
+2019-04-06 11:17:14.376 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2916ms
+2019-04-06 11:17:14.380 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 11:17:24.766 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x65183f31, L:/127.0.0.1:5689 - R:/127.0.0.1:63377] REGISTERED
+2019-04-06 11:17:24.766 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 - R:/127.0.0.1:63376] REGISTERED
+2019-04-06 11:17:24.767 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x65183f31, L:/127.0.0.1:5689 - R:/127.0.0.1:63377] ACTIVE
+2019-04-06 11:17:24.767 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 - R:/127.0.0.1:63376] ACTIVE
+2019-04-06 11:17:24.859 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:17:24.859 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:17:24.877 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 - R:/127.0.0.1:63376] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:17:24.879 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 - R:/127.0.0.1:63376] READ COMPLETE
+2019-04-06 11:17:35.535 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x65183f31, L:/127.0.0.1:5689 - R:/127.0.0.1:63377] READ COMPLETE
+2019-04-06 11:17:35.538 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x65183f31, L:/127.0.0.1:5689 ! R:/127.0.0.1:63377] INACTIVE
+2019-04-06 11:17:35.540 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x65183f31, L:/127.0.0.1:5689 ! R:/127.0.0.1:63377] UNREGISTERED
+2019-04-06 11:17:38.743 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:17:38.744 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 11:17:38.745 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 - R:/127.0.0.1:63376] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:17:38.745 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 - R:/127.0.0.1:63376] READ COMPLETE
+2019-04-06 11:17:38.752 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x1dbeab6e, L:/127.0.0.1:5689 - R:/127.0.0.1:63384] REGISTERED
+2019-04-06 11:17:38.752 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x1dbeab6e, L:/127.0.0.1:5689 - R:/127.0.0.1:63384] ACTIVE
+2019-04-06 11:18:20.576 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x1dbeab6e, L:/127.0.0.1:5689 - R:/127.0.0.1:63384] READ COMPLETE
+2019-04-06 11:18:20.578 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x1dbeab6e, L:/127.0.0.1:5689 ! R:/127.0.0.1:63384] INACTIVE
+2019-04-06 11:18:20.578 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x1dbeab6e, L:/127.0.0.1:5689 ! R:/127.0.0.1:63384] UNREGISTERED
+2019-04-06 11:23:18.482 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 - R:/127.0.0.1:63376] READ COMPLETE
+2019-04-06 11:23:18.484 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 ! R:/127.0.0.1:63376] INACTIVE
+2019-04-06 11:23:18.485 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5caea226, L:/127.0.0.1:5689 ! R:/127.0.0.1:63376] UNREGISTERED
+2019-04-06 11:58:15.004 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3046ms
+2019-04-06 11:58:15.013 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 11:58:18.496 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4630c98c, L:/127.0.0.1:5689 - R:/127.0.0.1:64070] REGISTERED
+2019-04-06 11:58:18.496 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 - R:/127.0.0.1:64069] REGISTERED
+2019-04-06 11:58:18.497 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 - R:/127.0.0.1:64069] ACTIVE
+2019-04-06 11:58:18.498 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4630c98c, L:/127.0.0.1:5689 - R:/127.0.0.1:64070] ACTIVE
+2019-04-06 11:58:18.602 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 - R:/127.0.0.1:64069] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:58:18.603 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 - R:/127.0.0.1:64069] READ COMPLETE
+2019-04-06 11:58:29.107 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4630c98c, L:/127.0.0.1:5689 - R:/127.0.0.1:64070] READ COMPLETE
+2019-04-06 11:58:29.110 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4630c98c, L:/127.0.0.1:5689 ! R:/127.0.0.1:64070] INACTIVE
+2019-04-06 11:58:29.110 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4630c98c, L:/127.0.0.1:5689 ! R:/127.0.0.1:64070] UNREGISTERED
+2019-04-06 11:58:29.119 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcc1e088d, L:/127.0.0.1:5689 - R:/127.0.0.1:64076] REGISTERED
+2019-04-06 11:58:29.120 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcc1e088d, L:/127.0.0.1:5689 - R:/127.0.0.1:64076] ACTIVE
+2019-04-06 11:58:29.196 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 - R:/127.0.0.1:64069] READ, EmptyLastHttpContent, 0B
+2019-04-06 11:58:29.196 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 - R:/127.0.0.1:64069] READ COMPLETE
+2019-04-06 11:58:29.198 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 - R:/127.0.0.1:64069] READ COMPLETE
+2019-04-06 11:58:29.201 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 ! R:/127.0.0.1:64069] INACTIVE
+2019-04-06 11:58:29.202 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x242fe615, L:/127.0.0.1:5689 ! R:/127.0.0.1:64069] UNREGISTERED
+2019-04-06 11:59:35.860 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcc1e088d, L:/127.0.0.1:5689 - R:/127.0.0.1:64076] READ COMPLETE
+2019-04-06 11:59:35.860 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcc1e088d, L:/127.0.0.1:5689 ! R:/127.0.0.1:64076] INACTIVE
+2019-04-06 11:59:35.861 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xcc1e088d, L:/127.0.0.1:5689 ! R:/127.0.0.1:64076] UNREGISTERED
+2019-04-06 12:00:16.252 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3194ms
+2019-04-06 12:00:16.258 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 12:00:27.427 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x061a56b7, L:/127.0.0.1:5689 - R:/127.0.0.1:64133] REGISTERED
+2019-04-06 12:00:27.427 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x8414b4ac, L:/127.0.0.1:5689 - R:/127.0.0.1:64132] REGISTERED
+2019-04-06 12:00:27.428 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x061a56b7, L:/127.0.0.1:5689 - R:/127.0.0.1:64133] ACTIVE
+2019-04-06 12:00:27.428 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x8414b4ac, L:/127.0.0.1:5689 - R:/127.0.0.1:64132] ACTIVE
+2019-04-06 12:00:27.630 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x061a56b7, L:/127.0.0.1:5689 - R:/127.0.0.1:64133] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:00:27.631 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x061a56b7, L:/127.0.0.1:5689 - R:/127.0.0.1:64133] READ COMPLETE
+2019-04-06 12:00:56.720 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x061a56b7, L:/127.0.0.1:5689 - R:/127.0.0.1:64133] READ COMPLETE
+2019-04-06 12:00:56.723 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x061a56b7, L:/127.0.0.1:5689 ! R:/127.0.0.1:64133] INACTIVE
+2019-04-06 12:00:56.724 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x8414b4ac, L:/127.0.0.1:5689 - R:/127.0.0.1:64132] READ COMPLETE
+2019-04-06 12:00:56.724 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x061a56b7, L:/127.0.0.1:5689 ! R:/127.0.0.1:64133] UNREGISTERED
+2019-04-06 12:00:56.725 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x8414b4ac, L:/127.0.0.1:5689 ! R:/127.0.0.1:64132] INACTIVE
+2019-04-06 12:00:56.725 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x8414b4ac, L:/127.0.0.1:5689 ! R:/127.0.0.1:64132] UNREGISTERED
+2019-04-06 12:00:56.729 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x8b2bf32c, L:/127.0.0.1:5689 - R:/127.0.0.1:64140] REGISTERED
+2019-04-06 12:00:56.730 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5b1e2620, L:/127.0.0.1:5689 - R:/127.0.0.1:64141] REGISTERED
+2019-04-06 12:00:56.730 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x8b2bf32c, L:/127.0.0.1:5689 - R:/127.0.0.1:64140] ACTIVE
+2019-04-06 12:00:56.730 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5b1e2620, L:/127.0.0.1:5689 - R:/127.0.0.1:64141] ACTIVE
+2019-04-06 12:00:56.798 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5b1e2620, L:/127.0.0.1:5689 - R:/127.0.0.1:64141] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:00:56.799 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5b1e2620, L:/127.0.0.1:5689 - R:/127.0.0.1:64141] READ COMPLETE
+2019-04-06 12:02:38.363 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2962ms
+2019-04-06 12:02:38.371 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 12:02:45.160 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf7d09dae, L:/127.0.0.1:5689 - R:/127.0.0.1:64189] REGISTERED
+2019-04-06 12:02:45.160 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7d90604c, L:/127.0.0.1:5689 - R:/127.0.0.1:64188] REGISTERED
+2019-04-06 12:02:45.161 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf7d09dae, L:/127.0.0.1:5689 - R:/127.0.0.1:64189] ACTIVE
+2019-04-06 12:02:45.161 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7d90604c, L:/127.0.0.1:5689 - R:/127.0.0.1:64188] ACTIVE
+2019-04-06 12:02:45.226 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7d90604c, L:/127.0.0.1:5689 - R:/127.0.0.1:64188] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:02:45.227 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7d90604c, L:/127.0.0.1:5689 - R:/127.0.0.1:64188] READ COMPLETE
+2019-04-06 12:03:10.203 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf7d09dae, L:/127.0.0.1:5689 - R:/127.0.0.1:64189] READ COMPLETE
+2019-04-06 12:03:10.205 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf7d09dae, L:/127.0.0.1:5689 ! R:/127.0.0.1:64189] INACTIVE
+2019-04-06 12:03:10.206 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf7d09dae, L:/127.0.0.1:5689 ! R:/127.0.0.1:64189] UNREGISTERED
+2019-04-06 12:12:43.678 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3041ms
+2019-04-06 12:12:43.682 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 12:12:46.782 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xadf2087b, L:/127.0.0.1:5689 - R:/127.0.0.1:64327] REGISTERED
+2019-04-06 12:12:46.782 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xce8599e6, L:/127.0.0.1:5689 - R:/127.0.0.1:64326] REGISTERED
+2019-04-06 12:12:46.783 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xadf2087b, L:/127.0.0.1:5689 - R:/127.0.0.1:64327] ACTIVE
+2019-04-06 12:12:46.783 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xce8599e6, L:/127.0.0.1:5689 - R:/127.0.0.1:64326] ACTIVE
+2019-04-06 12:12:46.855 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 12:12:46.855 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 12:12:46.866 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xce8599e6, L:/127.0.0.1:5689 - R:/127.0.0.1:64326] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:12:46.867 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xce8599e6, L:/127.0.0.1:5689 - R:/127.0.0.1:64326] READ COMPLETE
+2019-04-06 12:13:31.212 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xadf2087b, L:/127.0.0.1:5689 - R:/127.0.0.1:64327] READ COMPLETE
+2019-04-06 12:13:31.214 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xadf2087b, L:/127.0.0.1:5689 ! R:/127.0.0.1:64327] INACTIVE
+2019-04-06 12:13:31.215 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xadf2087b, L:/127.0.0.1:5689 ! R:/127.0.0.1:64327] UNREGISTERED
+2019-04-06 12:14:03.412 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2618ms
+2019-04-06 12:14:03.417 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 12:14:06.598 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3c31813e, L:/127.0.0.1:5689 - R:/127.0.0.1:64369] REGISTERED
+2019-04-06 12:14:06.598 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x102e5c40, L:/127.0.0.1:5689 - R:/127.0.0.1:64370] REGISTERED
+2019-04-06 12:14:06.599 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3c31813e, L:/127.0.0.1:5689 - R:/127.0.0.1:64369] ACTIVE
+2019-04-06 12:14:06.599 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x102e5c40, L:/127.0.0.1:5689 - R:/127.0.0.1:64370] ACTIVE
+2019-04-06 12:14:06.694 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 12:14:06.694 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 12:14:06.697 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 12:14:06.698 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 12:14:06.698 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 4
+2019-04-06 12:14:06.698 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 4
+2019-04-06 12:14:06.711 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3c31813e, L:/127.0.0.1:5689 - R:/127.0.0.1:64369] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:14:06.712 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3c31813e, L:/127.0.0.1:5689 - R:/127.0.0.1:64369] READ COMPLETE
+2019-04-06 12:14:57.178 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x102e5c40, L:/127.0.0.1:5689 - R:/127.0.0.1:64370] READ COMPLETE
+2019-04-06 12:14:57.180 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x102e5c40, L:/127.0.0.1:5689 ! R:/127.0.0.1:64370] INACTIVE
+2019-04-06 12:14:57.180 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x102e5c40, L:/127.0.0.1:5689 ! R:/127.0.0.1:64370] UNREGISTERED
+2019-04-06 12:19:49.497 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2327ms
+2019-04-06 12:19:49.503 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 12:19:54.168 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7b1ef2fb, L:/127.0.0.1:5689 - R:/127.0.0.1:64461] REGISTERED
+2019-04-06 12:19:54.168 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] REGISTERED
+2019-04-06 12:19:54.169 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7b1ef2fb, L:/127.0.0.1:5689 - R:/127.0.0.1:64461] ACTIVE
+2019-04-06 12:19:54.169 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] ACTIVE
+2019-04-06 12:19:54.221 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:19:54.221 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:19:54.221 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:19:54.221 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:19:54.221 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 12:19:54.221 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 3
+2019-04-06 12:19:54.224 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 3
+2019-04-06 12:19:54.235 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:19:54.236 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ COMPLETE
+2019-04-06 12:20:23.967 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7b1ef2fb, L:/127.0.0.1:5689 - R:/127.0.0.1:64461] READ COMPLETE
+2019-04-06 12:20:23.970 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7b1ef2fb, L:/127.0.0.1:5689 ! R:/127.0.0.1:64461] INACTIVE
+2019-04-06 12:20:23.980 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7b1ef2fb, L:/127.0.0.1:5689 ! R:/127.0.0.1:64461] UNREGISTERED
+2019-04-06 12:20:31.322 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:31.323 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:31.323 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc3b628df, L:/127.0.0.1:5689 - R:/127.0.0.1:64473] REGISTERED
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc3b628df, L:/127.0.0.1:5689 - R:/127.0.0.1:64473] ACTIVE
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:31.324 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 12:20:31.325 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 12:20:31.325 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:31.325 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:31.325 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 2
+2019-04-06 12:20:31.325 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 2
+2019-04-06 12:20:31.326 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:20:31.326 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ COMPLETE
+2019-04-06 12:20:48.126 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc3b628df, L:/127.0.0.1:5689 - R:/127.0.0.1:64473] READ COMPLETE
+2019-04-06 12:20:48.127 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc3b628df, L:/127.0.0.1:5689 ! R:/127.0.0.1:64473] INACTIVE
+2019-04-06 12:20:48.127 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc3b628df, L:/127.0.0.1:5689 ! R:/127.0.0.1:64473] UNREGISTERED
+2019-04-06 12:20:48.131 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:48.131 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:48.131 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf07abb7e, L:/127.0.0.1:5689 - R:/127.0.0.1:64477] REGISTERED
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf07abb7e, L:/127.0.0.1:5689 - R:/127.0.0.1:64477] ACTIVE
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 12:20:48.132 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 12:20:48.133 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:20:48.133 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:20:48.133 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 2
+2019-04-06 12:20:48.133 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 2
+2019-04-06 12:20:48.134 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:20:48.134 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ COMPLETE
+2019-04-06 12:22:37.666 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf07abb7e, L:/127.0.0.1:5689 - R:/127.0.0.1:64477] READ COMPLETE
+2019-04-06 12:22:37.667 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf07abb7e, L:/127.0.0.1:5689 ! R:/127.0.0.1:64477] INACTIVE
+2019-04-06 12:22:37.668 seaya [(♛‿♛)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf07abb7e, L:/127.0.0.1:5689 ! R:/127.0.0.1:64477] UNREGISTERED
+2019-04-06 12:22:37.666 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:22:37.669 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:22:37.669 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:22:37.669 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:22:37.669 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 12:22:37.669 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 12:22:37.670 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:22:37.670 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:22:37.670 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 12:22:37.670 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 12:22:37.670 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:22:37.670 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:22:37.670 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 1
+2019-04-06 12:22:37.671 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 1
+2019-04-06 12:22:37.671 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:22:37.672 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xb3d3aefb, L:/127.0.0.1:5689 - R:/127.0.0.1:64460] READ COMPLETE
+2019-04-06 12:22:37.678 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe811cf16, L:/127.0.0.1:5689 - R:/127.0.0.1:64497] REGISTERED
+2019-04-06 12:22:37.679 seaya [(♛‿♛)-3-5] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe811cf16, L:/127.0.0.1:5689 - R:/127.0.0.1:64497] ACTIVE
+2019-04-06 12:23:17.172 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2406ms
+2019-04-06 12:23:17.178 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 12:23:21.695 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf1f5b25c, L:/127.0.0.1:5689 - R:/127.0.0.1:64527] REGISTERED
+2019-04-06 12:23:21.695 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc1e00c95, L:/127.0.0.1:5689 - R:/127.0.0.1:64528] REGISTERED
+2019-04-06 12:23:21.696 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf1f5b25c, L:/127.0.0.1:5689 - R:/127.0.0.1:64527] ACTIVE
+2019-04-06 12:23:21.696 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc1e00c95, L:/127.0.0.1:5689 - R:/127.0.0.1:64528] ACTIVE
+2019-04-06 12:23:21.742 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:23:21.742 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:23:21.743 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 12:23:21.743 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 12:23:21.743 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 12:23:21.743 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 12:23:21.745 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 12:23:21.745 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 12:23:21.745 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 12:23:21.745 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 12:23:21.746 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 12:23:21.746 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 12:23:21.746 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 2
+2019-04-06 12:23:21.746 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 2
+2019-04-06 12:23:21.759 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf1f5b25c, L:/127.0.0.1:5689 - R:/127.0.0.1:64527] READ, EmptyLastHttpContent, 0B
+2019-04-06 12:23:21.760 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf1f5b25c, L:/127.0.0.1:5689 - R:/127.0.0.1:64527] READ COMPLETE
+2019-04-06 12:23:52.268 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc1e00c95, L:/127.0.0.1:5689 - R:/127.0.0.1:64528] READ COMPLETE
+2019-04-06 12:23:52.271 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc1e00c95, L:/127.0.0.1:5689 ! R:/127.0.0.1:64528] INACTIVE
+2019-04-06 12:23:52.279 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xc1e00c95, L:/127.0.0.1:5689 ! R:/127.0.0.1:64528] UNREGISTERED
+2019-04-06 12:30:00.232 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf1f5b25c, L:/127.0.0.1:5689 - R:/127.0.0.1:64527] READ COMPLETE
+2019-04-06 12:30:00.233 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf1f5b25c, L:/127.0.0.1:5689 ! R:/127.0.0.1:64527] INACTIVE
+2019-04-06 12:30:00.234 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf1f5b25c, L:/127.0.0.1:5689 ! R:/127.0.0.1:64527] UNREGISTERED
+2019-04-06 13:00:44.224 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3040ms
+2019-04-06 13:00:44.259 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 13:48:28.299 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2651ms
+2019-04-06 13:48:28.329 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 13:48:41.081 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2456ms
+2019-04-06 13:48:41.088 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:31:49.155 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  seaya_log_console - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:31:49.159 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  seaya_log_file - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:31:51.362 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2401ms
+2019-04-06 14:31:51.365 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:32:38.419 seaya [(鈾涒�库櫅)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6564a78a, L:/127.0.0.1:5689 - R:/127.0.0.1:51867] REGISTERED
+2019-04-06 14:32:38.419 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 - R:/127.0.0.1:51866] REGISTERED
+2019-04-06 14:32:38.419 seaya [(鈾涒�库櫅)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6564a78a, L:/127.0.0.1:5689 - R:/127.0.0.1:51867] ACTIVE
+2019-04-06 14:32:38.419 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 - R:/127.0.0.1:51866] ACTIVE
+2019-04-06 14:32:38.485 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:32:38.485 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:32:38.485 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 14:32:38.485 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 14:32:38.485 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:32:38.485 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_console - 4
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_file - 4
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 14:32:38.489 seaya [(鈾涒�库櫅)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 14:32:38.511 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 - R:/127.0.0.1:51866] READ, EmptyLastHttpContent, 0B
+2019-04-06 14:32:38.512 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 - R:/127.0.0.1:51866] READ COMPLETE
+2019-04-06 14:32:38.931 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 - R:/127.0.0.1:51866] READ, EmptyLastHttpContent, 0B
+2019-04-06 14:32:38.931 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 - R:/127.0.0.1:51866] READ COMPLETE
+2019-04-06 14:32:38.938 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 - R:/127.0.0.1:51866] READ COMPLETE
+2019-04-06 14:32:38.940 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 ! R:/127.0.0.1:51866] INACTIVE
+2019-04-06 14:32:38.940 seaya [(鈾涒�库櫅)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x28239a4c, L:/127.0.0.1:5689 ! R:/127.0.0.1:51866] UNREGISTERED
+2019-04-06 14:32:52.154 seaya [(鈾涒�库櫅)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6564a78a, L:/127.0.0.1:5689 - R:/127.0.0.1:51867] READ COMPLETE
+2019-04-06 14:32:52.155 seaya [(鈾涒�库櫅)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6564a78a, L:/127.0.0.1:5689 ! R:/127.0.0.1:51867] INACTIVE
+2019-04-06 14:32:52.155 seaya [(鈾涒�库櫅)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6564a78a, L:/127.0.0.1:5689 ! R:/127.0.0.1:51867] UNREGISTERED
+2019-04-06 14:32:52.443 seaya [(鈾涒�库櫅)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6ef828f4, L:/127.0.0.1:5689 - R:/127.0.0.1:51873] REGISTERED
+2019-04-06 14:32:52.443 seaya [(鈾涒�库櫅)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6ef828f4, L:/127.0.0.1:5689 - R:/127.0.0.1:51873] ACTIVE
+2019-04-06 14:32:52.449 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:32:52.449 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:32:52.449 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - 拦截请求
+2019-04-06 14:32:52.449 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - 拦截请求
+2019-04-06 14:32:52.449 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:32:52.450 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:32:52.451 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 14:32:52.451 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 14:32:52.452 seaya [(鈾涒�库櫅)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x64143d71, L:/127.0.0.1:5689 - R:/127.0.0.1:51874] REGISTERED
+2019-04-06 14:32:52.452 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:32:52.453 seaya [(鈾涒�库櫅)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x64143d71, L:/127.0.0.1:5689 - R:/127.0.0.1:51874] ACTIVE
+2019-04-06 14:32:52.453 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:32:52.453 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - 3
+2019-04-06 14:32:52.453 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - 3
+2019-04-06 14:32:52.453 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:32:52.453 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:32:52.454 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_console - logger param=[{name=nihao, id=2}]
+2019-04-06 14:32:52.454 seaya [(鈾涒�库櫅)-3-3] INFO  seaya_log_file - logger param=[{name=nihao, id=2}]
+2019-04-06 14:32:52.454 seaya [(鈾涒�库櫅)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6ef828f4, L:/127.0.0.1:5689 - R:/127.0.0.1:51873] READ, EmptyLastHttpContent, 0B
+2019-04-06 14:32:52.455 seaya [(鈾涒�库櫅)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6ef828f4, L:/127.0.0.1:5689 - R:/127.0.0.1:51873] READ COMPLETE
+2019-04-06 14:33:11.552 seaya [(鈾涒�库櫅)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x64143d71, L:/127.0.0.1:5689 - R:/127.0.0.1:51874] READ COMPLETE
+2019-04-06 14:33:11.553 seaya [(鈾涒�库櫅)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x64143d71, L:/127.0.0.1:5689 ! R:/127.0.0.1:51874] INACTIVE
+2019-04-06 14:33:11.554 seaya [(鈾涒�库櫅)-3-4] INFO  i.n.handler.logging.LoggingHandler - [id: 0x64143d71, L:/127.0.0.1:5689 ! R:/127.0.0.1:51874] UNREGISTERED
+2019-04-06 14:34:15.730 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2477ms
+2019-04-06 14:34:15.738 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:36:19.251 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 14:36:19.257 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 14:36:21.657 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2620ms
+2019-04-06 14:36:21.660 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:43:09.558 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:43:09.564 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:43:09.566 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:43:09.566 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:43:11.839 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2511ms
+2019-04-06 14:43:11.842 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:43:34.402 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf2f26a1e, L:/127.0.0.1:5689 - R:/127.0.0.1:52211] REGISTERED
+2019-04-06 14:43:34.402 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x93bf5bd3, L:/127.0.0.1:5689 - R:/127.0.0.1:52212] REGISTERED
+2019-04-06 14:43:34.403 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf2f26a1e, L:/127.0.0.1:5689 - R:/127.0.0.1:52211] ACTIVE
+2019-04-06 14:43:34.403 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x93bf5bd3, L:/127.0.0.1:5689 - R:/127.0.0.1:52212] ACTIVE
+2019-04-06 14:43:34.483 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:43:34.483 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:43:34.483 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 14:43:34.483 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 14:43:34.483 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:43:34.483 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:43:34.486 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:43:34.487 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:43:34.487 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 3
+2019-04-06 14:43:34.487 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 3
+2019-04-06 14:43:34.487 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:43:34.487 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:43:34.487 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 14:43:34.487 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 14:43:34.501 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf2f26a1e, L:/127.0.0.1:5689 - R:/127.0.0.1:52211] READ, EmptyLastHttpContent, 0B
+2019-04-06 14:43:34.501 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf2f26a1e, L:/127.0.0.1:5689 - R:/127.0.0.1:52211] READ COMPLETE
+2019-04-06 14:43:39.946 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:43:39.946 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:43:39.947 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 14:43:39.947 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 14:43:39.947 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:43:39.947 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:43:39.948 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 14:43:39.948 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 14:43:39.948 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:43:39.949 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:43:39.949 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 2
+2019-04-06 14:43:39.949 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 2
+2019-04-06 14:43:39.949 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:43:39.949 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:43:39.949 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{name=nihao, id=2}]
+2019-04-06 14:43:39.949 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{name=nihao, id=2}]
+2019-04-06 14:43:39.950 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf2f26a1e, L:/127.0.0.1:5689 - R:/127.0.0.1:52211] READ, EmptyLastHttpContent, 0B
+2019-04-06 14:43:39.950 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xf2f26a1e, L:/127.0.0.1:5689 - R:/127.0.0.1:52211] READ COMPLETE
+2019-04-06 14:43:45.358 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x93bf5bd3, L:/127.0.0.1:5689 - R:/127.0.0.1:52212] READ COMPLETE
+2019-04-06 14:43:45.361 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x93bf5bd3, L:/127.0.0.1:5689 ! R:/127.0.0.1:52212] INACTIVE
+2019-04-06 14:43:45.361 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x93bf5bd3, L:/127.0.0.1:5689 ! R:/127.0.0.1:52212] UNREGISTERED
+2019-04-06 14:46:42.973 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:46:42.980 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:46:42.980 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:46:42.980 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:46:45.282 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2514ms
+2019-04-06 14:46:45.284 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:52:14.529 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:52:14.538 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:52:14.539 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  seaya_log_console - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:52:14.540 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  seaya_log_file - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:52:16.831 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2655ms
+2019-04-06 14:52:16.844 seaya [鈽�( 鈼犫�库棤 )鈽�] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:52:58.928 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:52:58.934 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:52:58.935 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:52:58.935 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - 鎴戞槸鑷畾涔夌殑SeayaIOC
+2019-04-06 14:53:01.320 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2595ms
+2019-04-06 14:53:01.322 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:55:42.062 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:55:42.067 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 14:55:42.068 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - I am SeayaIOC
+2019-04-06 14:55:42.068 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - I am SeayaIOC
+2019-04-06 14:55:44.545 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2677ms
+2019-04-06 14:55:44.548 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:56:32.191 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 14:56:32.196 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 14:56:34.464 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2473ms
+2019-04-06 14:56:34.467 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 14:56:44.261 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5f5b7fd8, L:/127.0.0.1:5689 - R:/127.0.0.1:52691] REGISTERED
+2019-04-06 14:56:44.261 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3263ce51, L:/127.0.0.1:5689 - R:/127.0.0.1:52692] REGISTERED
+2019-04-06 14:56:44.262 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5f5b7fd8, L:/127.0.0.1:5689 - R:/127.0.0.1:52691] ACTIVE
+2019-04-06 14:56:44.262 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3263ce51, L:/127.0.0.1:5689 - R:/127.0.0.1:52692] ACTIVE
+2019-04-06 14:56:44.340 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:56:44.340 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:56:44.340 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:56:44.340 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:56:44.340 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 14:56:44.340 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 14:56:44.344 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 14:56:44.344 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 14:56:44.344 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 14:56:44.345 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 14:56:44.345 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 14:56:44.345 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 14:56:44.345 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 5
+2019-04-06 14:56:44.346 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 5
+2019-04-06 14:56:44.363 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5f5b7fd8, L:/127.0.0.1:5689 - R:/127.0.0.1:52691] READ, EmptyLastHttpContent, 0B
+2019-04-06 14:56:44.365 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5f5b7fd8, L:/127.0.0.1:5689 - R:/127.0.0.1:52691] READ COMPLETE
+2019-04-06 14:56:54.344 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3263ce51, L:/127.0.0.1:5689 - R:/127.0.0.1:52692] READ COMPLETE
+2019-04-06 14:56:54.346 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3263ce51, L:/127.0.0.1:5689 ! R:/127.0.0.1:52692] INACTIVE
+2019-04-06 14:56:54.346 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x3263ce51, L:/127.0.0.1:5689 ! R:/127.0.0.1:52692] UNREGISTERED
+2019-04-06 15:02:00.394 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5f5b7fd8, L:/127.0.0.1:5689 - R:/127.0.0.1:52691] READ COMPLETE
+2019-04-06 15:02:00.394 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5f5b7fd8, L:/127.0.0.1:5689 ! R:/127.0.0.1:52691] INACTIVE
+2019-04-06 15:02:00.395 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5f5b7fd8, L:/127.0.0.1:5689 ! R:/127.0.0.1:52691] UNREGISTERED
+2019-04-06 15:09:27.033 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 15:09:27.044 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 15:09:29.446 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2633ms
+2019-04-06 15:09:29.463 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 15:10:16.107 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 15:10:16.112 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 15:10:16.112 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - I am SeayaIOC
+2019-04-06 15:10:16.113 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - I am SeayaIOC
+2019-04-06 15:10:18.346 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2432ms
+2019-04-06 15:10:18.350 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 15:21:58.516 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 15:21:58.528 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 15:21:58.529 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - I am SeayaIOC
+2019-04-06 15:21:58.530 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - I am SeayaIOC
+2019-04-06 15:42:29.827 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 15:42:29.836 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 15:42:29.837 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - I am SeayaIOC
+2019-04-06 15:42:29.837 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - I am SeayaIOC
+2019-04-06 16:58:52.527 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 16:58:52.532 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 16:58:52.533 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - I am SeayaIOC
+2019-04-06 16:58:52.533 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - I am SeayaIOC
+2019-04-06 16:58:54.111 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 2053ms
+2019-04-06 16:58:54.115 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 17:01:24.819 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa1311b5a, L:/127.0.0.1:5689 - R:/127.0.0.1:54979] REGISTERED
+2019-04-06 17:01:24.819 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6bef90e8, L:/127.0.0.1:5689 - R:/127.0.0.1:54980] REGISTERED
+2019-04-06 17:01:24.821 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6bef90e8, L:/127.0.0.1:5689 - R:/127.0.0.1:54980] ACTIVE
+2019-04-06 17:01:24.821 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa1311b5a, L:/127.0.0.1:5689 - R:/127.0.0.1:54979] ACTIVE
+2019-04-06 17:01:24.895 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:01:24.896 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:01:24.896 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 17:01:24.897 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 17:01:24.897 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:01:24.897 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:01:24.901 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:01:24.901 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:01:24.902 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 6
+2019-04-06 17:01:24.902 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 6
+2019-04-06 17:01:24.902 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:01:24.902 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:01:24.902 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 17:01:24.902 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 17:01:24.918 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa1311b5a, L:/127.0.0.1:5689 - R:/127.0.0.1:54979] READ, EmptyLastHttpContent, 0B
+2019-04-06 17:01:24.919 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa1311b5a, L:/127.0.0.1:5689 - R:/127.0.0.1:54979] READ COMPLETE
+2019-04-06 17:07:08.428 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa1311b5a, L:/127.0.0.1:5689 - R:/127.0.0.1:54979] READ COMPLETE
+2019-04-06 17:07:08.430 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6bef90e8, L:/127.0.0.1:5689 - R:/127.0.0.1:54980] READ COMPLETE
+2019-04-06 17:07:08.434 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6bef90e8, L:/127.0.0.1:5689 ! R:/127.0.0.1:54980] INACTIVE
+2019-04-06 17:07:08.434 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa1311b5a, L:/127.0.0.1:5689 ! R:/127.0.0.1:54979] INACTIVE
+2019-04-06 17:07:08.435 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x6bef90e8, L:/127.0.0.1:5689 ! R:/127.0.0.1:54980] UNREGISTERED
+2019-04-06 17:07:08.435 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xa1311b5a, L:/127.0.0.1:5689 ! R:/127.0.0.1:54979] UNREGISTERED
+2019-04-06 17:07:20.797 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 17:07:20.804 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 17:07:20.804 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - I am SeayaIOC
+2019-04-06 17:07:20.805 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - I am SeayaIOC
+2019-04-06 17:07:47.861 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 17:07:47.866 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.ioc.SeayaIoc
+2019-04-06 17:07:47.867 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - I am SeayaIOC
+2019-04-06 17:07:47.867 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - I am SeayaIOC
+2019-04-06 17:07:50.650 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3512ms
+2019-04-06 17:07:50.672 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 17:08:07.835 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 - R:/127.0.0.1:55218] REGISTERED
+2019-04-06 17:08:07.835 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4db9a7c3, L:/127.0.0.1:5689 - R:/127.0.0.1:55220] REGISTERED
+2019-04-06 17:08:07.835 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 - R:/127.0.0.1:55218] ACTIVE
+2019-04-06 17:08:07.836 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4db9a7c3, L:/127.0.0.1:5689 - R:/127.0.0.1:55220] ACTIVE
+2019-04-06 17:08:07.939 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:08:07.939 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:08:07.939 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 17:08:07.939 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 17:08:07.939 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:08:07.939 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:08:07.943 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:08:07.944 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:08:07.944 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 4
+2019-04-06 17:08:07.944 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 4
+2019-04-06 17:08:07.944 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:08:07.944 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:08:07.952 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 17:08:07.952 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 17:08:07.970 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 - R:/127.0.0.1:55218] READ, EmptyLastHttpContent, 0B
+2019-04-06 17:08:07.972 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 - R:/127.0.0.1:55218] READ COMPLETE
+2019-04-06 17:10:23.753 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:10:23.755 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:10:23.755 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 17:10:23.756 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 17:10:23.753 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4db9a7c3, L:/127.0.0.1:5689 - R:/127.0.0.1:55220] READ COMPLETE
+2019-04-06 17:10:23.756 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:10:23.756 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:10:23.757 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:10:23.757 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:10:23.757 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 4
+2019-04-06 17:10:23.757 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 4
+2019-04-06 17:10:23.757 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:10:23.757 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:10:23.762 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 17:10:23.762 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 17:10:23.763 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4db9a7c3, L:/127.0.0.1:5689 ! R:/127.0.0.1:55220] INACTIVE
+2019-04-06 17:10:23.763 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x4db9a7c3, L:/127.0.0.1:5689 ! R:/127.0.0.1:55220] UNREGISTERED
+2019-04-06 17:10:23.763 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 - R:/127.0.0.1:55218] READ, EmptyLastHttpContent, 0B
+2019-04-06 17:10:23.763 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 - R:/127.0.0.1:55218] READ COMPLETE
+2019-04-06 17:10:23.765 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x9308fc4c, L:/127.0.0.1:5689 - R:/127.0.0.1:55255] REGISTERED
+2019-04-06 17:10:23.766 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x9308fc4c, L:/127.0.0.1:5689 - R:/127.0.0.1:55255] ACTIVE
+2019-04-06 17:12:44.299 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x9308fc4c, L:/127.0.0.1:5689 - R:/127.0.0.1:55255] READ COMPLETE
+2019-04-06 17:12:44.300 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x9308fc4c, L:/127.0.0.1:5689 ! R:/127.0.0.1:55255] INACTIVE
+2019-04-06 17:12:44.301 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0x9308fc4c, L:/127.0.0.1:5689 ! R:/127.0.0.1:55255] UNREGISTERED
+2019-04-06 17:17:29.456 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 - R:/127.0.0.1:55218] READ COMPLETE
+2019-04-06 17:17:29.457 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 ! R:/127.0.0.1:55218] INACTIVE
+2019-04-06 17:17:29.457 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x5191b130, L:/127.0.0.1:5689 ! R:/127.0.0.1:55218] UNREGISTERED
+2019-04-06 17:20:16.672 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 17:20:16.678 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 17:20:19.863 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3778ms
+2019-04-06 17:20:19.866 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 17:20:53.254 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd192e018, L:/127.0.0.1:5689 - R:/127.0.0.1:55535] REGISTERED
+2019-04-06 17:20:53.254 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 - R:/127.0.0.1:55534] REGISTERED
+2019-04-06 17:20:53.255 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 - R:/127.0.0.1:55534] ACTIVE
+2019-04-06 17:20:53.255 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd192e018, L:/127.0.0.1:5689 - R:/127.0.0.1:55535] ACTIVE
+2019-04-06 17:20:53.385 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:20:53.386 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:20:53.386 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:20:53.386 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:20:53.386 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 17:20:53.386 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 17:20:53.391 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:20:53.391 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:20:53.391 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{}]
+2019-04-06 17:20:53.392 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{}]
+2019-04-06 17:20:53.392 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:20:53.392 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:20:53.392 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 6
+2019-04-06 17:20:53.392 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 6
+2019-04-06 17:20:53.418 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 - R:/127.0.0.1:55534] READ, EmptyLastHttpContent, 0B
+2019-04-06 17:20:53.420 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 - R:/127.0.0.1:55534] READ COMPLETE
+2019-04-06 17:21:43.962 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd192e018, L:/127.0.0.1:5689 - R:/127.0.0.1:55535] READ COMPLETE
+2019-04-06 17:21:43.966 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:21:43.967 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:21:43.967 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:21:43.967 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:21:43.967 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 17:21:43.968 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 17:21:43.967 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd192e018, L:/127.0.0.1:5689 ! R:/127.0.0.1:55535] INACTIVE
+2019-04-06 17:21:43.969 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 17:21:43.970 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - DemoReq{id=2, name='nihao'} WorkReq{timeStamp=null}
+2019-04-06 17:21:43.970 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd192e018, L:/127.0.0.1:5689 ! R:/127.0.0.1:55535] UNREGISTERED
+2019-04-06 17:21:43.971 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:21:43.971 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:21:43.971 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - logger param=[{name=nihao, id=2}]
+2019-04-06 17:21:43.971 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - logger param=[{name=nihao, id=2}]
+2019-04-06 17:21:43.971 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:21:43.972 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:21:43.972 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 4
+2019-04-06 17:21:43.972 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 4
+2019-04-06 17:21:43.974 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 - R:/127.0.0.1:55534] READ, EmptyLastHttpContent, 0B
+2019-04-06 17:21:43.974 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 - R:/127.0.0.1:55534] READ COMPLETE
+2019-04-06 17:21:43.986 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe6ebce36, L:/127.0.0.1:5689 - R:/127.0.0.1:55544] REGISTERED
+2019-04-06 17:21:43.987 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe6ebce36, L:/127.0.0.1:5689 - R:/127.0.0.1:55544] ACTIVE
+2019-04-06 17:27:50.481 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 - R:/127.0.0.1:55534] READ COMPLETE
+2019-04-06 17:27:50.482 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe6ebce36, L:/127.0.0.1:5689 - R:/127.0.0.1:55544] READ COMPLETE
+2019-04-06 17:27:50.482 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 ! R:/127.0.0.1:55534] INACTIVE
+2019-04-06 17:27:50.483 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0x41aa8b27, L:/127.0.0.1:5689 ! R:/127.0.0.1:55534] UNREGISTERED
+2019-04-06 17:27:50.483 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe6ebce36, L:/127.0.0.1:5689 ! R:/127.0.0.1:55544] INACTIVE
+2019-04-06 17:27:50.483 seaya [(♛‿♛)-3-3] INFO  i.n.handler.logging.LoggingHandler - [id: 0xe6ebce36, L:/127.0.0.1:5689 ! R:/127.0.0.1:55544] UNREGISTERED
+2019-04-06 17:28:22.502 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_console - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 17:28:22.512 seaya [☝( ◠‿◠ )☝] INFO  seaya_log_file - BeanFactoryclass com.bihang.seaya.bean.impl.SeayaDefaultBean
+2019-04-06 17:28:25.525 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - Seaya started on port: 5689.cost 3322ms
+2019-04-06 17:28:25.528 seaya [☝( ◠‿◠ )☝] INFO  c.b.seaya.bootstrap.NettyBootStrap - >> access http://127.0.0.1:5689/seaya-example <<
+2019-04-06 17:28:29.328 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 - R:/127.0.0.1:55667] REGISTERED
+2019-04-06 17:28:29.328 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7a9b824e, L:/127.0.0.1:5689 - R:/127.0.0.1:55668] REGISTERED
+2019-04-06 17:28:29.329 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 - R:/127.0.0.1:55667] ACTIVE
+2019-04-06 17:28:29.329 seaya [(♛‿♛)-3-2] INFO  i.n.handler.logging.LoggingHandler - [id: 0x7a9b824e, L:/127.0.0.1:5689 - R:/127.0.0.1:55668] ACTIVE
+2019-04-06 17:28:29.463 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是1号拦截器
+2019-04-06 17:28:29.464 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是1号拦截器
+2019-04-06 17:28:29.464 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 我是4号拦截器
+2019-04-06 17:28:29.465 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 我是4号拦截器
+2019-04-06 17:28:29.465 seaya [(♛‿♛)-3-1] INFO  seaya_log_console - 拦截请求
+2019-04-06 17:28:29.465 seaya [(♛‿♛)-3-1] INFO  seaya_log_file - 拦截请求
+2019-04-06 17:28:29.484 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 - R:/127.0.0.1:55667] READ, EmptyLastHttpContent, 0B
+2019-04-06 17:28:29.485 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 - R:/127.0.0.1:55667] READ COMPLETE
+2019-04-06 17:28:29.666 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 - R:/127.0.0.1:55667] READ, EmptyLastHttpContent, 0B
+2019-04-06 17:28:29.667 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 - R:/127.0.0.1:55667] READ COMPLETE
+2019-04-06 17:28:29.697 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 - R:/127.0.0.1:55667] READ COMPLETE
+2019-04-06 17:28:29.699 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 ! R:/127.0.0.1:55667] INACTIVE
+2019-04-06 17:28:29.699 seaya [(♛‿♛)-3-1] INFO  i.n.handler.logging.LoggingHandler - [id: 0xd50a825a, L:/127.0.0.1:5689 ! R:/127.0.0.1:55667] UNREGISTERED

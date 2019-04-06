@@ -1,5 +1,7 @@
 package com.bihang.seaya;
 
+import com.bihang.seaya.bootstrap.NettyBootStrap;
+import com.bihang.seaya.config.SeayaSetting;
 import com.bihang.seaya.environment.Environment;
 import com.bihang.seaya.handler.SeayaHandler;
 import com.bihang.seaya.log.PrintSeayaLogo;
@@ -22,89 +24,24 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class SeayaServer {
 
-    public static Environment environment = Environment.getInstance();
-
-    public static EventLoopGroup group = new NioEventLoopGroup();
-
-    private static Channel channel ;
     /**
-     * 以默認端口8007开启服务器
+     * 通过指定指定路径启动Seaya
+     * @param clazz
+     * @param path
      * @throws Exception
      */
-    public static void start() throws Exception {
-        int port = environment.getPort();
-        PrintSeayaLogo.print();
-        long start = System.currentTimeMillis();
-        ServerBootstrap b = new ServerBootstrap();
-        b.group(group)
-                .channel(NioServerSocketChannel.class)
-                .childHandler(new ChannelInitializer<SocketChannel>() {
-                    @Override
-                    protected void initChannel(SocketChannel ch) throws Exception {
-                        ch.pipeline().addLast(new HttpServerCodec())
-                                .addLast(new SeayaHandler())
-                        ;
-                    }
-                });
-        channel = b.bind(port).sync().channel();
-        long end = System.currentTimeMillis();
-        log.info("Seaya initialize successfully !");
-        SeayaLog.log("nihao");
-        log.info("Seaya started on port: {}", port);
-        log.info("Seaya started cost: {}ms", end - start);
-        log.info("Open browser access: http://127.0.0.1:{}",port);
+    public static void start(Class<?> clazz,String path) throws Exception {
+        SeayaSetting.setting(clazz,path) ;
+        NettyBootStrap.startSeaya();
     }
+
 
     /**
-     * 以指定端口开启服务器
-     * @param port
+     * Start the service through the port in the configuration file
+     * @param clazz
      * @throws Exception
      */
-    public static void start(Class<?> startClass,int port) throws Exception {
-        String rootPackageName = startClass.getPackage().getName();
-        environment.setRootPackageName(rootPackageName);
-        environment.setPort(port);
-        start();
-    }
-
-    /**
-     * 修改默认文本
-     * @param startClass
-     * @param textHandler
-     * @throws Exception
-     */
-    public static void start(Class<?> startClass,TextHandler textHandler) throws Exception {
-        String rootPackageName = startClass.getPackage().getName();
-        environment.setRootPackageName(rootPackageName);
-        textHandler.text();
-        start();
-    }
-
-    public static void start(Class<?> startClass) throws Exception {
-
-        String rootPackageName = startClass.getPackage().getName();
-        System.out.println(rootPackageName);
-        environment.setRootPackageName(rootPackageName);
-        start();
-    }
-
-    public static void join() throws InterruptedException {
-        channel.closeFuture().sync();
-    }
-
-
-    public static void stop() {
-        log.info("Seaya shutdown...");
-        if (group != null)
-            group.shutdownGracefully();
-        log.info("Seaya shutdown successful");
-    }
-
-    private static void shutdownHook() {
-        Thread shutdownThread = new Thread(()->{
-            SeayaServer.stop();
-        });
-        shutdownThread.setName("shutdown@thread");
-        Runtime.getRuntime().addShutdownHook(shutdownThread);
+    public static void start(Class<?> clazz) throws Exception {
+        start(clazz,null);
     }
 }

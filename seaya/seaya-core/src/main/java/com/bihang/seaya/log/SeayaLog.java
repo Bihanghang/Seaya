@@ -16,4 +16,11 @@ public class SeayaLog {
         seaya_log_console.info(messageContent);
         seaya_log_file.info(messageContent);
     }
+
+
+
+    public static void error(String messageContent) {
+        seaya_log_console.error(messageContent);
+        seaya_log_file.error(messageContent);
+    }
 }

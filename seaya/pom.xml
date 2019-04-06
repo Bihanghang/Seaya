@@ -11,6 +11,7 @@
     <modules>
         <module>seaya-core</module>
         <module>seaya-example</module>
+        <module>seaya-ioc</module>
     </modules>
 
 

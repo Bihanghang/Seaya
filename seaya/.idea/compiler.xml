@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="seaya-core" />
         <module name="seaya-example" />
+        <module name="seaya-ioc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="seaya-ioc" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
