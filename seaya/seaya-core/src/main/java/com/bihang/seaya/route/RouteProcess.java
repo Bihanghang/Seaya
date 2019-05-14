@@ -12,13 +12,6 @@ import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Function:
- *
- * @author crossoverJie
- *         Date: 2018/11/13 21:18
- * @since JDK 1.8
- */
 public final class RouteProcess {
 
     private volatile static RouteProcess routeProcess;
@@ -67,6 +60,9 @@ public final class RouteProcess {
      * @throws NoSuchFieldException
      */
     private Object[] parseRouteParameter(Method method, QueryStringDecoder queryStringDecoder) throws IllegalAccessException, InstantiationException, NoSuchFieldException {
+        //此处的parameterTypes为DemoReq，只有一个参数
+        //此处参数默认只能有两个，一个为DemoReq或者SeayaContext，换句话说参数默认只能有一个
+        //因为是利用反射给参数对象属性赋值，如果属性名不一致，会报错"java.lang.NoSuchFieldException: dd"
         Class<?>[] parameterTypes = method.getParameterTypes();
 
         if (parameterTypes.length == 0){
@@ -80,11 +76,11 @@ public final class RouteProcess {
         Object[] instances = new Object[parameterTypes.length] ;
 
         for (int i = 0; i < instances.length; i++) {
-            //inject cicada context instance
+            //inject seaya context instance
             if (parameterTypes[i] == SeayaContext.class){
                 instances[i] = SeayaContext.getContext() ;
             }else {
-                //inject custom pojo
+                //inject custom pojo，此处为DemoReq，即为instance
                 Class<?> parameterType = parameterTypes[i];
                 Object instance = parameterType.newInstance();
 
@@ -94,6 +90,7 @@ public final class RouteProcess {
                     field.setAccessible(true);
                     field.set(instance, parseFieldValue(field, param.getValue().get(0)));
                 }
+                //返回参数对象，此处为DemoReq
                 instances[i] = instance ;
             }
         }

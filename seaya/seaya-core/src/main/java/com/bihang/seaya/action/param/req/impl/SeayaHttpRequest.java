@@ -35,6 +35,7 @@ public class SeayaHttpRequest implements SeayaRequest {
         return request ;
     }
 
+
     /**
      * build headers
      * @param httpRequest io.netty.httprequest
@@ -59,13 +60,13 @@ public class SeayaHttpRequest implements SeayaRequest {
             }
 
             for (io.netty.handler.codec.http.cookie.Cookie cookie : ServerCookieDecoder.LAX.decode(value)) {
-                Cookie cicadaCookie = new Cookie() ;
-                cicadaCookie.setName(cookie.name());
-                cicadaCookie.setValue(cookie.value());
-                cicadaCookie.setDomain(cookie.domain());
-                cicadaCookie.setMaxAge(cookie.maxAge());
-                cicadaCookie.setPath(cookie.path()) ;
-                request.cookie.put(cicadaCookie.getName(),cicadaCookie) ;
+                Cookie seayaCookie = new Cookie() ;
+                seayaCookie.setName(cookie.name());
+                seayaCookie.setValue(cookie.value());
+                seayaCookie.setDomain(cookie.domain());
+                seayaCookie.setMaxAge(cookie.maxAge());
+                seayaCookie.setPath(cookie.path()) ;
+                request.cookie.put(seayaCookie.getName(),seayaCookie) ;
             }
         }
     }

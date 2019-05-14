@@ -1,12 +1,10 @@
 package com.bihang.seaya.example.intercept;
 
-import com.bihang.seaya.Seaya;
 import com.bihang.seaya.action.param.Param;
 import com.bihang.seaya.annotation.Interceptor;
 import com.bihang.seaya.context.SeayaContext;
 import com.bihang.seaya.intercept.SeayaInterceptor;
 import com.bihang.seaya.log.SeayaLog;
-import org.slf4j.Logger;
 
 
 @Interceptor(order = 4)
@@ -22,7 +20,7 @@ public class ExecuteTimeInterceptor extends SeayaInterceptor {
         SeayaLog.log("我是"+this.getOrder()+"号拦截器");
         SeayaLog.log("拦截请求");
         context.text("拦截请求");
-        return false;
+        return true;
     }
 
     @Override

@@ -1,7 +1,6 @@
 package com.bihang.seaya.handle;
 
 import com.alibaba.fastjson.JSON;
-import com.bihang.seaya.Seaya;
 import com.bihang.seaya.action.param.Param;
 import com.bihang.seaya.action.param.impl.ParamMap;
 import com.bihang.seaya.action.param.req.SeayaRequest;
@@ -11,7 +10,6 @@ import com.bihang.seaya.action.param.res.impl.SeayaHttpResponse;
 import com.bihang.seaya.config.AppConfig;
 import com.bihang.seaya.constant.SeayaConstant;
 import com.bihang.seaya.context.SeayaContext;
-import com.bihang.seaya.exception.SeayaException;
 import com.bihang.seaya.intercept.InterceptProcess;
 import com.bihang.seaya.log.SeayaLog;
 import com.bihang.seaya.route.RouteProcess;
@@ -54,10 +52,6 @@ public class HttpDispatcher extends SimpleChannelInboundHandler<DefaultHttpReque
 
             // check Root Path
             appConfig.checkRootPath(uri, queryStringDecoder);
-
-            // route Action
-            //Class<?> actionClazz = routeAction(queryStringDecoder, appConfig);
-
             //build paramMap
             Param paramMap = buildParamMap(queryStringDecoder);
 
@@ -69,14 +63,9 @@ public class HttpDispatcher extends SimpleChannelInboundHandler<DefaultHttpReque
             if (!access) {
                 return;
             }
-
             // execute Method
             Method method = routerScanner.routeMethod(queryStringDecoder);
             routeProcess.invoke(method,queryStringDecoder) ;
-
-
-            //WorkAction action = (WorkAction) actionClazz.newInstance();
-            //action.execute(CicadaContext.getContext(), paramMap);
 
 
             // interceptor after
@@ -88,7 +77,7 @@ public class HttpDispatcher extends SimpleChannelInboundHandler<DefaultHttpReque
             // Response
             responseContent(ctx);
 
-            // remove cicada thread context
+            // remove seaya thread context
             SeayaContext.removeContext();
         }
 
@@ -102,8 +91,8 @@ public class HttpDispatcher extends SimpleChannelInboundHandler<DefaultHttpReque
      */
     private void responseContent(ChannelHandlerContext ctx) {
 
-        SeayaResponse cicadaResponse = SeayaContext.getResponse();
-        String context = cicadaResponse.getHttpContent() ;
+        SeayaResponse seayaResponse = SeayaContext.getResponse();
+        String context = seayaResponse.getHttpContent() ;
 
         ByteBuf buf = Unpooled.wrappedBuffer(context.getBytes(StandardCharsets.UTF_8));
         DefaultFullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.OK, buf);
@@ -133,14 +122,13 @@ public class HttpDispatcher extends SimpleChannelInboundHandler<DefaultHttpReque
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
-
-        if (SeayaException.isResetByPeer(cause.getMessage())){
+        /*if (SeayaException.isResetByPeer(cause.getMessage())){
             return;
-        }
+        }*/
 
-        SeayaLog.error("请求异常"+cause.getMessage());
+        SeayaLog.error("请求异常"+cause.toString());
 
-        DefaultFullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.NOT_FOUND, Unpooled.copiedBuffer(JSON.toJSONString(cause.getMessage()), CharsetUtil.UTF_8));
+        DefaultFullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.NOT_FOUND, Unpooled.copiedBuffer(JSON.toJSONString(cause.toString()), CharsetUtil.UTF_8));
         buildHeader(response);
         ctx.writeAndFlush(response);
     }
@@ -151,13 +139,18 @@ public class HttpDispatcher extends SimpleChannelInboundHandler<DefaultHttpReque
      * @param response
      */
     private void buildHeader(DefaultFullHttpResponse response) {
-        SeayaResponse cicadaResponse = SeayaContext.getResponse();
+        SeayaResponse seayaResponse = SeayaContext.getResponse();
 
         HttpHeaders headers = response.headers();
         headers.setInt(HttpHeaderNames.CONTENT_LENGTH, response.content().readableBytes());
-        headers.set(HttpHeaderNames.CONTENT_TYPE, cicadaResponse.getContentType());
+        headers.set(HttpHeaderNames.CONTENT_TYPE, seayaResponse.getContentType());
+        /**解决ajax跨域*/
+        headers.set(HttpHeaderNames.ACCESS_CONTROL_ALLOW_ORIGIN,"http://127.0.0.1");
+        headers.set(HttpHeaderNames.ACCESS_CONTROL_ALLOW_METHODS,"POST,GET");
+        /**解决ajax携带参数*/
+        headers.set(HttpHeaderNames.ACCESS_CONTROL_ALLOW_CREDENTIALS,"true");
 
-        List<io.netty.handler.codec.http.cookie.Cookie> cookies = cicadaResponse.cookies();
+        List<io.netty.handler.codec.http.cookie.Cookie> cookies = seayaResponse.cookies();
         for (Cookie cookie : cookies) {
             headers.add(SeayaConstant.ContentType.SET_COOKIE, io.netty.handler.codec.http.cookie.ServerCookieEncoder.LAX.encode(cookie));
         }

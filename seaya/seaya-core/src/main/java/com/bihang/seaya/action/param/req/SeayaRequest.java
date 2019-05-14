@@ -21,4 +21,5 @@ public interface SeayaRequest {
      */
     Cookie getCookie(String key) ;
 
+
 }

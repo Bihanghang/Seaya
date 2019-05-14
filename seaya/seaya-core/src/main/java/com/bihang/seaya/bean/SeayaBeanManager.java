@@ -32,12 +32,12 @@ public final class SeayaBeanManager {
      * @throws Exception
      */
     public void init(String packageName) throws Exception {
-        Map<String, Class<?>> cicadaAction = ClassScanner.getSeayaAction(packageName);
+        Map<String, Class<?>> seayaAction = ClassScanner.getSeayaAction(packageName);
 
         Class<?> bean = ClassScanner.getCustomRouteBean();
         seayaBeanFactory = (SeayaBeanFactory) bean.newInstance() ;
 
-        for (Map.Entry<String, Class<?>> classEntry : cicadaAction.entrySet()) {
+        for (Map.Entry<String, Class<?>> classEntry : seayaAction.entrySet()) {
             Object instance = classEntry.getValue().newInstance();
             seayaBeanFactory.register(instance) ;
         }

@@ -1,6 +1,5 @@
 package com.bihang.seaya.reflect;
 
-import com.bihang.seaya.Seaya;
 import com.bihang.seaya.annotation.Interceptor;
 import com.bihang.seaya.annotation.SeayaAction;
 import com.bihang.seaya.bean.SeayaBeanFactory;
@@ -64,7 +63,7 @@ public class ClassScanner {
         return configurationList;
     }
     /**
-     * get @CicadaAction
+     * get @SeayaAction
      *
      * @param packageName
      * @return

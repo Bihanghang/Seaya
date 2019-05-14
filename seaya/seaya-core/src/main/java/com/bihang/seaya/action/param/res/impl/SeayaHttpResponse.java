@@ -77,6 +77,8 @@ public class SeayaHttpResponse implements SeayaResponse {
 
         cookie.setPath("/");
         cookie.setMaxAge(seayaCookie.getMaxAge());
+        //此处domain不能随意添加，会导致cookie无法写入浏览器
+        /*cookie.setDomain("http://127.0.0.1");*/
         cookies.add(cookie) ;
     }
 

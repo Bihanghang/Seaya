@@ -8,13 +8,13 @@ import java.util.Map;
 
 public class SeayaIoc implements SeayaBeanFactory {
 
-    private static Map<String,Object> beans = new HashMap<>(16) ;
+    private static Map<String,Object> beans = new HashMap<>(16);
 
 
     @Override
     public void register(Object object) {
         SeayaLog.log("I am SeayaIOC");
-        beans.put(object.getClass().getName(),object) ;
+        beans.put(object.getClass().getName(),object);
     }
 
     @Override
